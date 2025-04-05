@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "agroconnect",
+    "password": "postgres",
+    "database": "agroconnect",
+    "host": "34.121.43.244",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "your_postgres_password",
+    "database": "agroconnect_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "your_postgres_password",
+    "database": "agroconnect_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
